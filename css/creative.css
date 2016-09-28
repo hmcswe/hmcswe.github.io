@@ -269,11 +269,14 @@ header .header-content .header-content-inner p {
 
 .headshot {
     width: 16%;
-    height: 20%;
+    height: 350px;
     margin: auto;
     position: relative;
     padding: auto;
     display: inline-block;
+}
+.headshot img {
+    width: 100%;
 }
 
 .member-name {
@@ -283,11 +286,16 @@ header .header-content .header-content-inner p {
     text-decoration: none;
 }
 
+/*.photo-box {
+    height: 100%;
+}*/
+
 .portfolio-box {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 650px;
+    /*height: 100%;*/
     background: rgba(99,155,188,.9);
     padding: auto;
 }
