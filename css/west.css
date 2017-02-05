@@ -189,11 +189,18 @@ aside {
 
 header {
     width: 100%;
+    position: relative;
     text-align: center;
     color: #fff;
     background-color: #1455b6;
     background-position: center;
     padding-top: 8%;
+    background-image: url(../img/westlecture.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 header .header-content {
@@ -457,4 +464,9 @@ body {
 
 .back-to-top i {
   font-size: 60px;
+}
+
+.about-west{
+    background: url(../img/westpano.jpg);
+    background-size: 100% 100%;
 }
